@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  springbootapi4flutter:
+    image: springbootapi4flutter
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
